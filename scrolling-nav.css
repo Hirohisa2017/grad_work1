@@ -1,0 +1,123 @@
+header {
+  padding: 156px 0 100px;
+}
+
+* {
+    font-family: "Helvetica Neue",
+      Arial,
+      "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans",
+      Meiryo,
+      sans-serif;
+}
+
+section {
+  padding: 150px 0;
+}
+
+
+.section{
+  height: 800px;
+}
+
+.my_about{
+  background-color: rgba(0, 0,0, 0.6);
+  color: beige;
+  font-size: 0.6em;
+  margin: 10% 0;
+  padding: 5%;
+}
+
+.about_img{
+  background-image: url(./img/cover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#services{
+  height: 1200px;
+}
+
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.services_css{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company_profile{
+  text-decoration: none;
+  color:rgb(255,255,255);
+}
+
+.company_profile:hover{
+  text-decoration: underline;
+  color: antiquewhite;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 650px;
+  table-layout: fixed;
+}
+
+table tr {
+  background-color: #e6f2f5;
+  padding: .35em;
+  border-bottom: 2px solid #fff;
+}
+table th,
+table td {
+  padding: 1em 10px 1em 1em;
+  border-right: 2px solid #fff;
+}
+table th {
+  font-size: 1.2em;
+}
+table thead tr{
+  background-color: #167F92;
+  color:#fff;
+}
+table tbody th {
+    background: #78bbc7;
+    color: #fff;
+}
+.txt{
+   text-align: left;
+   font-size: 1.2em;
+}
+.price{
+  text-align: right;
+  color:black;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+    width:100%
+  }
+  table th{
+    background-color: #167F92;
+    display: block;
+    border-right: none;
+  };
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+  }};
